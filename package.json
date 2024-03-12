@@ -1,0 +1,40 @@
+{
+  "name": "frontend_assesment",
+  "version": "0.1.0",
+  "homepage": "https://mruqqie.github.io/fe-test/",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "json-server": "json-server --watch db.json --port 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@meinefinsternis/react-horizontal-date-picker": "^1.0.1",
+    "axios": "^1.6.7",
+    "date-fns": "^3.3.1",
+    "gh-pages": "^6.1.1",
+    "json-server": "^1.0.0-alpha.23",
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-cookie": "^7.0.2",
+    "react-dom": "^18.2.0",
+    "react-scroll": "^1.9.0",
+    "react-spinners": "^0.13.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-scroll": "^1.8.10",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
