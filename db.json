@@ -1,5 +1,10 @@
 {
   "users": [
-    
+    {
+      "id": "980c",
+      "name": "Ross",
+      "email": "ross@friends.com",
+      "password": "fdce2d3a0e5465f4040a400eb3bdcbe586e29d3b382183d290b8a83c50af60d7"
+    }
   ]
 }

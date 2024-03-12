@@ -60,7 +60,7 @@ export const UserProvider: React.FC<UserContextProps> = ({ children }) => {
 
 			if (existingUsers.length > 0) {
 				alert(
-					"Username already exists. Please choose a different username."
+					"Email already in use. Please use a different email."
 				);
 				;
 			} else {
